@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BellyBelles Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Nav -->
+    <header>
+        <nav class="navbar">
+          <a href="index.html" class="nav-logo">
+            <h2 class="logo-text"><img src="imgs/logo inverse.png">BellyBelles</h2>
+          </a>
+          <ul class="nav-menu">
+            <li><a href="#" class="nav-link"><img src="imgs/log in.png" width="24" alt="Log In"></a></li>
+            <li><a href="#" class="nav-link cart-link" id="cartToggle"><img src="imgs/shopping cart.png" width="24" alt="Cart"><span class="cart-badge" id="cartCount">0</span></a></li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="menu.html" class="nav-link">Menu</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+        <!-- Cart Panel -->
+  <div class="cart-panel" id="cartPanel">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button class="close-cart" aria-label="Close Cart">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-total" id="cartTotal">Total: ₱0</div>
+    <button class="checkout-btn">Checkout</button>
+  </div>
+
+
+<!-- About Section -->
+<section class="about-section">
+  <div class="about-container">
+    <main>
+      <h2>Our Story</h2>
+      <p>
+        BellyBelles Coffee was born out of a simple love for good coffee and warm conversations. Since opening in 2020, we've become a cozy spot where people come to relax, work, and catch up over freshly brewed drinks and homemade pastries.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        We aim to create an inclusive, warm, and welcoming space for all. From ethically sourced coffee beans to carefully crafted pastries, everything is made with love, passion, and purpose.
+      </p>
+
+      <h2>Meet Our Team</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="imgs/SpongeBob_SquarePants_character.png" alt="Jerico - Head Barista" class="team-photo">
+          <div>
+            <h3>Jerico</h3>
+            <p class="role">Founder & Head Barista</p>
+            <p>Loves latte art and friendly chats—Jerico is the heart and soul of BellyBelles!</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <img src="imgs/Patrick_Star_character.png" alt="Hans - Pastry Chef" class="team-photo">
+          <div>
+            <h3>Hans</h3>
+            <p class="role">Pastry Chef</p>
+            <p>Hans crafts daily delights—from buttery croissants to decadent cakes that keep our guests coming back.</p>
+          </div>
+        </div>
+
+        <!-- Add more team members as needed -->
+        <!-- Example:
+        <div class="team-card">
+          <img src="imgs/member3.jpg" alt="Team Member" class="team-photo">
+          <div>
+            <h3>Maria</h3>
+            <p class="role">Marketing Manager</p>
+            <p>Bringing creative vibes and positive energy to our brand and community.</p>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <h2>Visit Us</h2>
+      <div class="visit-info">
+        <p><strong>📍 Address:</strong> B36 L44 Marjoram St. Robinsons Homes East, Barangay San Jose 1870 Antipolo, Philippines</p>
+        <p><strong>⏰ Hours:</strong> Sunday – Monday: 12PM – 7PM</p>
+      </div>
+    </main>
+  </div>
+</section>
+<!-- ========== FOOTER INFO ========== -->
+<section class="footer-info">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="imgs/logo1.png" alt="BellyBelles Logo" />
+      </div>
+  
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>Our Company</h3>
+          <ul>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="franchising.html">Franchising</a></li>
+            <li><a href="storelocator.html">Store Locator</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h3>Site Terms</h3>
+          <ul>
+            <li><a href="termsofservice.html">Terms of Use</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h3>Customer Care</h3>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100093797695256">
+                <img src="imgs/facebooklogo.png" alt="Facebook" class="social-icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 BellyBelles Coffee. All rights reserved.</p>
+  </footer>
+  
+
+    <script src="shoppingcart.js"></script>
+</body>
+</html>
